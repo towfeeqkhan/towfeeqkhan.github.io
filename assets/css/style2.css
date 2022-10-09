@@ -213,7 +213,8 @@ body {
   .box {
     position: relative;
     display: grid;
-    grid-template-columns: 425px;
+    /* changed this for responsive */
+    grid-template-columns: 310px;
     grid-template-rows: auto;
     grid-template-areas: "form" "info" "map";
   }
