@@ -200,6 +200,12 @@ body {
     background: #03a9f5;
   }
 
+  .contactUs .title {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+
   .contactUs {
     padding: 20px;
   }
@@ -207,7 +213,7 @@ body {
   .box {
     position: relative;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 425px;
     grid-template-rows: auto;
     grid-template-areas: "form" "info" "map";
   }
@@ -219,9 +225,9 @@ body {
   }
 
   .inputBox {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    margin-bottom: 10px; */
+    margin-bottom: 10px;
     width: 100%;
   }
 
