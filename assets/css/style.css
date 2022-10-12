@@ -201,8 +201,13 @@ body { background: var(--white); }
 }
 
 
+.newtext {
+  font-weight: 300;
+}
 
-
+.newlogo{
+  max-width: 190px;
+}
 
 /*-----------------------------------*\
  * #HEADER
@@ -253,7 +258,7 @@ body { background: var(--white); }
 
 .header-top .logo { margin-inline: auto; }
 
-.header-top .logo img { max-width: 100px; }
+.header-top .logo img { max-width: 140px; }
 
 .header-btn-group {
   justify-self: flex-end;
@@ -522,7 +527,7 @@ body { background: var(--white); }
  * #PACKAGE
 \*-----------------------------------*/
 
-.package { padding-block: var(--section-padding); }
+.package { padding-block: var(--section-padding); padding-block-end: 0;}
 
 .package-list { margin-bottom: 40px; }
 
@@ -892,7 +897,7 @@ address {
 
   .helpline-box .icon-box { padding: 14px; }
 
-  .header-top .logo img { max-width: unset; }
+  /* .header-top .logo img { max-width: unset; } */
 
   .search-btn { font-size: 30px; }
 
