@@ -99,7 +99,7 @@ body{
   display: inline-block;
   margin-top: 12px;
 }
-.right-side .button input[type="submit"]{
+.right-side .button button[type="submit"]{
   color: #fff;
   font-size: 18px;
   outline: none;
@@ -110,20 +110,8 @@ body{
   cursor: pointer;
   transition: all 0.3s ease;
 }
-.button input[type="button"]:hover{
+.button button[type="submit"]:hover{
   background: #5029bc;
-}
-
-/* for feedback */
-.beforefeedback {
-  display: none;
-}
-
-.afterfeedback {
-  background-color: green;
-  color: white;
-  width: 250px;
-  padding: 5px;
 }
 
 
