@@ -5,11 +5,11 @@ html {
 }
 
 #title {
-  background: url("../hero.jpg");
+  background: url("../hero3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding-bottom: 20%;
+  padding-bottom: 40%;
   margin-bottom: 60px;
 }
 
