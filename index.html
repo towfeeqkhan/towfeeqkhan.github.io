@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Aagaz Kashmir Holiday</title>
   <meta name="title" content="Aagaz Kashmir Holiday">
   <meta name="description"
     content="Book tour packages & holidays to travel Kashmir with Kashmir's own tour company called Aagaz Kashmir Holiday. At Aagaz Kashmir Holiday we offer you...">
-  <meta name="keywords" content="Tour packages, Kashmir tour, kashmir travel packages, travel kashmir, holidays">
+  <meta name="keywords" content="Tour packages, Kashmir tour packages, kashmir travel packages, travel kashmir, holidays">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
   <meta name="author" content="Towfeeq Khan">
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-site-verification" content="7mWF_QLPwfJuNrD0FaH1rFMqwmg2J76Veaj_yMvV48g" />
-  <title>Aagaz Kashmir Holiday</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- 
     - favicon
@@ -21,972 +20,321 @@
   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
   <!-- 
-    - custom css link
+    Bootstrap Link 
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- 
+      Fontawesome link 
+    -->
+  <script src="https://kit.fontawesome.com/4f3b3551fd.js" crossorigin="anonymous"></script>
 
   <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
+    Css Link
+   -->
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body id="top">
+<body>
 
-  <!-- 
-    - #HEADER CODE
-  -->
-
-  <header class="header" data-header>
-
-    <div class="overlay" data-overlay></div>
-
-    <div class="header-top">
-      <div class="container">
-
-        <a href="tel:8494051233" class="helpline-box">
-
-          <div class="icon-box">
-            <ion-icon name="call-outline"></ion-icon>
-          </div>
-
-          <div class="wrapper">
-            <p class="helpline-title">For Further Inquires :</p>
-
-            <p class="helpline-number">8494051233</p>
-          </div>
-
-        </a>
-
-        <a href="#" class="logo">
-          <img class="newlogo" src="./assets/images/logo.png" alt="Aagaz logo">
-        </a>
-
-        <div class="header-btn-group">
-
-          <!-- <button class="search-btn" aria-label="Search">
-            <ion-icon name="search"></ion-icon>
-          </button> -->
-
-          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
-            <ion-icon name="menu-outline"></ion-icon>
-          </button>
-
+  <section id="title">
+    <div class="container-fluid">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="">Aagaz Kashmir</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#title">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#packages">Packages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+          </ul>
         </div>
+      </nav>
 
+      <!-- Hero -->
+      <h1 class="hero-text">JOURNEY TO EXPLORE<br> <span class="type"></span></h1>
+    </div>
+  </section>
+
+  <!-- Packages -->
+
+  <section id="packages">
+    <h2 class="package-heading">Our Packages</h2>
+
+    <div class="card-container">
+      <div class="card">
+        <img class="card-img" src="images/package 1.jpg">
+        <div class="price">
+          <p>₹14,399<span>/per person</span></p>
+        </div>
+        <div class="time">
+          <i class="icon fa-regular fa-clock"></i> 4D/3N |
+          <i class="icon fa-solid fa-location-dot"></i> Kashmir
+        </div>
+        <h3 class="p-title">Explore Kashmir</h3>
+        <p class="p-discription">Discover Kashmir | Srinagar Local Sightseeing |Day Visit Gulmarg | Pahalgam |Dal Lake</p>
+        <a href="https://rzp.io/l/qVsIltcQTU"><button class="btn btn-outline-primary btn-lg">Book Now</button></a>
+      </div>
+
+      <div class="card">
+        <img class="card-img" src="images/package 2.jpg">
+        <div class="price">
+          <p>₹20,049<span>/per person</span></p>
+        </div>
+        <div class="time">
+          <i class="icon fa-regular fa-clock"></i> 5D/4N |
+          <i class="icon fa-solid fa-location-dot"></i> Kashmir
+        </div>
+        <h3 class="p-title">Discover Kashmir</h3>
+        <p class="p-discription">Best Package for You| Srinagar Local Sightseeing |Day Visit Gulmarg | Pahalgam |Dal Lake</p>
+        <a href="https://rzp.io/l/PMB6to7AtX"><button class="btn btn-outline-primary btn-lg">Book Now</button></a>
+      </div>
+
+      <div class="card">
+        <img class="card-img" src="images/package 3.jpg">
+        <div class="price">
+          <p>₹25,399<span>/per person</span></p>
+        </div>
+        <div class="time">
+          <i class="icon fa-regular fa-clock"></i> 6D/5N |
+          <i class="icon fa-solid fa-location-dot"></i> Kashmir
+        </div>
+        <h3 class="p-title">Heaven Kashmir</h3>
+        <p class="p-discription">Beauty of Kashmir | Srinagar Local Sightseeing |Day Visit Gulmarg | Pahalgam |Dal Lake</p>
+        <a href="https://rzp.io/l/R2ARYYH"><button class="btn btn-outline-primary btn-lg">Book Now</button></a>
+      </div>
+
+      <div class="card">
+        <img class="card-img" src="images/package 4.jpg">
+        <div class="price">
+          <p>₹34,900<span>/per person</span></p>
+        </div>
+        <div class="time">
+          <i class="icon fa-regular fa-clock"></i> 7D/6N |
+          <i class="icon fa-solid fa-location-dot"></i> Kashmir
+        </div>
+        <h3 class="p-title">Luxury Vacation</h3>
+        <p class="p-discription">Luxury Kashmir Trip | Srinagar Local Sightseeing |Day Visit Gulmarg | Pahalgam |Dal Lake</p>
+        <a href="https://rzp.io/l/ahNYOa9dOd"><button class="btn btn-outline-primary btn-lg">Book Now</button></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="row">
+      <div class="feature-box col-lg-4">
+        <i class="icon2 fa-solid fa-circle-check fa-4x"></i>
+        <h3 class="f-title">Best Price.</h3>
+        <p class="f-discription">Get amazing tour packages at very best price.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="icon2 fa-solid fa-map-location-dot fa-4x"></i>
+        <h3 class="f-title">Amazing Locations.</h3>
+        <p class="f-discription">We cover more than 30 locations in kashmir.</p>
+      </div>
+
+      <div class="feature-box col-lg-4">
+        <i class="icon2 fa-solid fa-heart fa-4x"></i>
+        <h3 class="f-title">We love our clients.</h3>
+        <p class="f-discription">Aagaz Kashmir Holiday is 24x7 available for you .</p>
       </div>
     </div>
 
-    <div class="header-bottom">
-      <div class="container">
-
-        <ul class="social-list">
-
-          <li>
-            <a href="https://m.facebook.com/Aagaz-Kashmir-Holiday-Tour-102287959325879/?ref=page_internal&mt_nav=0&locale2=ne_NP" target="_blank" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://wa.me/918494051233" target="_blank" class="social-link">
-              <ion-icon name="logo-whatsapp"></ion-icon>
-            </a>
-          </li>
-
-          <!-- <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-youtube"></ion-icon>
-            </a>
-          </li> -->
-
-        </ul>
-
-        <nav class="navbar" data-navbar>
-
-          <div class="navbar-top">
-
-            <a href="#" class="logo">
-              <img src="./assets/images/logo-blue.png" alt="Aagaz logo">
-            </a>
-
-            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-          </div>
-
-          <ul class="navbar-list">
-
-            <li>
-              <a href="#home" class="navbar-link" data-nav-link>home</a>
-            </li>
-
-            <!-- <li>
-              <a href="#" class="navbar-link" data-nav-link>about us</a>
-            </li> -->
-
-            <li>
-              <a href="#destination" class="navbar-link" data-nav-link>destination</a>
-            </li>
-
-            <li>
-              <a href="#package" class="navbar-link" data-nav-link>packages</a>
-            </li>
-
-            <li>
-              <a href="#gallery" class="navbar-link" data-nav-link>gallery</a>
-            </li>
-
-            <li>
-              <a href="#contact" class="navbar-link" data-nav-link>contact us</a>
-            </li>
-
-          </ul>
-
-        </nav>
-
-        <!-- <button class="btn btn-primary">Book Now</button> -->
-
-      </div>
-    </div>
-
-  </header>
-
-
-
-
-
-  <main>
-    <article>
-
-      <!-- 
-        - #HERO
-      -->
-
-      <section class="hero" id="home">
-        <div class="container">
-
-          <h2 class="h1 hero-title">Journey to explore kashmir</h2>
-
-          <p class="hero-text">
-            Book tour packages & holidays to travel Kashmir with Kashmir's own tour company called Aagaz Kashmir
-            Holiday. At Aagaz Kashmir Holiday we offer you great and affordable tour packages.
-          </p>
-
-          <div class="btn-group">
-            <a href="contact form.html"><button class="btn btn-primary">Contact Us</button></a>
-
-            <!-- <button class="btn btn-secondary">Book now</button> -->
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #TOUR SEARCH
-      -->
-
-      <!-- <section class="tour-search">
-        <div class="container">
-
-          <form action="" class="tour-search-form">
-
-            <div class="input-wrapper">
-              <label for="destination" class="input-label">Destination*</label>
-
-              <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
-                class="input-field">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="people" class="input-label">Number Of People*</label>
-
-              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="checkin" class="input-label">Travel Date*</label>
-
-              <input type="date" name="checkin" id="checkin" required class="input-field">
-            </div>
-
-            <div class="input-wrapper">
-              <label for="checkout" class="input-label">Checkout Date*</label>
-
-              <input type="date" name="checkout" id="checkout" required class="input-field">
-            </div>
-
-            <button type="submit" class="btn btn-secondary">Inquire now</button>
-
-          </form>
-
-        </div>
-      </section> -->
-
-
-
-
-
-      <!-- 
-        - #POPULAR
-      -->
-
-      <section class="popular" id="destination">
-        <div class="container">
-
-          <p class="section-subtitle">Uncover place</p>
-
-          <h2 class="h2 section-title">Popular destination</h2>
-
-          <p class="section-text">
-            Listed below are some of the most amazing places you can visit in Kashmir.
-          </p>
-
-          <ul class="popular-list">
-
-            <li>
-              <div class="popular-card">
-
-                <figure class="card-img">
-                  <img src="./assets/images/17.jpg" alt="Srinagar, India" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-
-                  <p class="card-subtitle">
-                    <a href="#">India</a>
-                  </p>
-
-                  <h3 class="h3 card-title">
-                    <a href="#">Srinagar</a>
-                  </h3>
-
-                  <p class="card-text"></p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="popular-card">
-
-                <figure class="card-img">
-                  <img src="./assets/images/21.jpg" alt="Gulmarg, India" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-
-                  <p class="card-subtitle">
-                    <a href="#">India</a>
-                  </p>
-
-                  <h3 class="h3 card-title">
-                    <a href="#">Gulmarg</a>
-                  </h3>
-
-                  <p class="card-text"></p>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="popular-card">
-
-                <figure class="card-img">
-                  <img src="./assets/images/10.jpg" alt="Pahalgam, India" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-rating">
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                    <ion-icon name="star"></ion-icon>
-                  </div>
-
-                  <p class="card-subtitle">
-                    <a href="#">India</a>
-                  </p>
-
-                  <h3 class="h3 card-title">
-                    <a href="#">Pahalgam</a>
-                  </h3>
-
-                  <p class="card-text"></p>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <!-- <button class="btn btn-primary">More destintion</button> -->
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #PACKAGE
-      -->
-
-      <section class="package" id="package">
-        <div class="container">
-
-          <p class="section-subtitle">Popular Packeges</p>
-
-          <h2 class="h2 section-title">Checkout Our Packeges</h2>
-
-          <p class="section-text">
-            Kashmir Tour Packages with Affordable prices. Book Your Trip Now. Friendly Tour Operators. Browse Our
-            Exciting Travel Packages
-          </p>
-
-          <ul class="package-list">
-
-            <li>
-              <div class="package-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/p1.jpg" alt="Experience The Great Holiday In Srinagar" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">Experience The Great Holiday In Srinagar</h3>
-
-                  <p class="card-text">Enjoy wonderful and breathtaking beauty in the summer capital of kashmir. Enjoy
-                    mountains in Gulmarg, Sonamarg and more</p>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="time"></ion-icon>
-
-                        <p class="text">3N/4D</p>
-                      </div>
-                    </li>
-
-                    <!-- <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="people"></ion-icon>
-
-                        <p class="text">pax: 10</p>
-                      </div>
-                    </li> -->
-
-                    <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="location"></ion-icon>
-
-                        <p class="text">Srinagar, Gulmarg, Sonamarg</p>
-                      </div>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-                <div class="card-price">
-
-                  <div class="wrapper">
-
-                    <p class="reviews">(91 reviews)</p>
-
-                    <div class="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-
-                  </div>
-
-                  <!-- <p class="price">
-                    $750
-                    <span>/ per person</span>
-                  </p> -->
-
-                  <a href="details1.html"><button class="btn btn-secondary">More Details</button></a>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="package-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/p2.jpg" alt="Kashmir Honeymoon Package" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">Kashmir HoneyMoon Package</h3>
-
-                  <p class="card-text">Create romantic memories with your loved ones in idyllic Kashmir, walk hand in
-                    hand by Srinagar’s Dal Lake and various other wonderful places</p>
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="time"></ion-icon>
-
-                        <p class="text">6N/7D</p>
-                      </div>
-                    </li>
-
-                    <!-- <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="people"></ion-icon>
-
-                        <p class="text">pax: 10</p>
-                      </div>
-                    </li> -->
-
-                    <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="location"></ion-icon>
-
-                        <p class="text">Srinagar, Gulmarg, Sonamarg, Pahalgam</p>
-                      </div>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-                <div class="card-price">
-
-                  <div class="wrapper">
-
-                    <p class="reviews">(63 reviews)</p>
-
-                    <div class="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-
-                  </div>
-
-                  <!-- <p class="price">
-                    $520
-                    <span>/ per person</span>
-                  </p> -->
-
-                  <a href="details2.html"><button class="btn btn-secondary">More Details</button></a>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="package-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/3.jpg" alt="Gulmarg Pahalgam Tour Package" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">Gulmarg Pahalgam Tour Package<h3>
-
-                      <p class="card-text newtext">Visit Stunning and Captivating Gulmarg and Pahalgam. Enjoy Snow and
-                        Amazing beauty of nature</p>
-
-                      <ul class="card-meta-list">
-
-                        <li class="card-meta-item">
-                          <div class="meta-box">
-                            <ion-icon name="time"></ion-icon>
-
-                            <p class="text newtext">4N/5D</p>
-                          </div>
-                        </li>
-
-                        <!-- <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="people"></ion-icon>
-
-                        <p class="text">pax: 10</p>
-                      </div>
-                    </li> -->
-
-                        <li class="card-meta-item">
-                          <div class="meta-box">
-                            <ion-icon name="location"></ion-icon>
-
-                            <p class="text newtext">Srinagar, Gulmarg, Pahalgam</p>
-                          </div>
-                        </li>
-
-                      </ul>
-
-                </div>
-
-                <div class="card-price">
-
-                  <div class="wrapper">
-
-                    <p class="reviews">(40 reviews)</p>
-
-                    <div class="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-
-                  </div>
-
-                  <!-- <p class="price">
-                    $660
-                    <span>/ per person</span>
-                  </p> -->
-
-                  <a href="details3.html"><button class="btn btn-secondary">More Details</button></a>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="package-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/p4.jpg" alt="KASHMIR FAMILY TOUR PACKAGE" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">KASHMIR FAMILY TOUR PACKAGE<h3>
-
-                      <p class="card-text newtext">Visit fascinating and exotic Kashmir with your family. Enjoy
-                        mesmerizing peaceful weather and nature</p>
-
-                      <ul class="card-meta-list">
-
-                        <li class="card-meta-item">
-                          <div class="meta-box">
-                            <ion-icon name="time"></ion-icon>
-
-                            <p class="text newtext">5N/6D</p>
-                          </div>
-                        </li>
-
-                        <!-- <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="people"></ion-icon>
-
-                        <p class="text">pax: 10</p>
-                      </div>
-                    </li> -->
-
-                        <li class="card-meta-item">
-                          <div class="meta-box">
-                            <ion-icon name="location"></ion-icon>
-
-                            <p class="text newtext">Srinagar, Gulmarg, Sonamarg, Pahalgam</p>
-                          </div>
-                        </li>
-
-                      </ul>
-
-                </div>
-
-                <div class="card-price">
-
-                  <div class="wrapper">
-
-                    <p class="reviews">(51 reviews)</p>
-
-                    <div class="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-
-                  </div>
-
-                  <!-- <p class="price">
-                    $660
-                    <span>/ per person</span>
-                  </p> -->
-
-                  <a href="details4.html"><button class="btn btn-secondary">More Details</button></a>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="package-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/p5.webp" alt="KASHMIR FAMILY TOUR PACKAGE" loading="lazy">
-                </figure>
-
-                <div class="card-content">
-
-                  <h3 class="h3 card-title">KASHMIR HOLIDAY WITH MATA VAISHNO DEVI
-                    DARSHAN PACKAGE<h3>
-
-                      <p class="card-text newtext">Seek the divine blessings of Mata Vaishno Devi at Katra in Jammu and
-                        enjoy sightseeing in Kashmir with our Kashmir with Vaishno Devi Itinerary of 8 Nights 9 Days</p>
-
-                      <ul class="card-meta-list">
-
-                        <li class="card-meta-item">
-                          <div class="meta-box">
-                            <ion-icon name="time"></ion-icon>
-
-                            <p class="text newtext">8N/9D</p>
-                          </div>
-                        </li>
-
-                        <!-- <li class="card-meta-item">
-                      <div class="meta-box">
-                        <ion-icon name="people"></ion-icon>
-
-                        <p class="text">pax: 10</p>
-                      </div>
-                    </li> -->
-
-                        <li class="card-meta-item">
-                          <div class="meta-box">
-                            <ion-icon name="location"></ion-icon>
-
-                            <p class="text newtext">Srinagar, Gulmarg, Sonamarg, Pahalgam, Katra</p>
-                          </div>
-                        </li>
-
-                      </ul>
-
-                </div>
-
-                <div class="card-price">
-
-                  <div class="wrapper">
-
-                    <p class="reviews">(31 reviews)</p>
-
-                    <div class="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-
-                  </div>
-
-                  <!-- <p class="price">
-                    $660
-                    <span>/ per person</span>
-                  </p> -->
-
-                  <a href="details5.html"><button class="btn btn-secondary">More Details</button></a>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <!-- <button class="btn btn-primary">View All Packages</button> -->
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #GALLERY
-      -->
-
-      <section class="gallery" id="gallery">
-        <div class="container">
-
-          <p class="section-subtitle">Photo Gallery</p>
-
-          <h2 class="h2 section-title">Photo's From Travellers</h2>
-
-          <p class="section-text">
-            Here are some amazing pictures from Travellers
-          </p>
-
-          <ul class="gallery-list">
-
-            <li class="gallery-item">
-              <figure class="gallery-image">
-                <img src="./assets/images/gallery-1.jpg" alt="Gallery image">
-              </figure>
-            </li>
-
-            <li class="gallery-item">
-              <figure class="gallery-image">
-                <img src="./assets/images/gallery-2.jpg" alt="Gallery image">
-              </figure>
-            </li>
-
-            <li class="gallery-item">
-              <figure class="gallery-image">
-                <img src="./assets/images/gallery-3.jpg" alt="Gallery image">
-              </figure>
-            </li>
-
-            <li class="gallery-item">
-              <figure class="gallery-image">
-                <img src="./assets/images/gallery-4.jpg" alt="Gallery image">
-              </figure>
-            </li>
-
-            <li class="gallery-item">
-              <figure class="gallery-image">
-                <img src="./assets/images/gallery-5.jpg" alt="Gallery image">
-              </figure>
-            </li>
-
-          </ul>
-          <div class="btnstyle">
-            <a href="photo gallery.html"><button class="btn btn-primary">View Full Gallery</button></a>
-          </div>
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #CTA
-      -->
-
-      <section class="cta" id="contact">
-        <div class="container">
-
-          <div class="cta-content">
-            <p class="section-subtitle">Call To Action</p>
-
-            <h2 class="h2 section-title">Ready For Unforgatable Travel. Remember Us!</h2>
-
-            <p class="section-text">
-              We are 24x7 Available for you.
-              Please Feel Free To Contact Us Anytime and Anywhere
-            </p>
-          </div>
-
-          <a href="contact form.html"><button class="btn btn-secondary">Contact Us !</button></a>
-
-        </div>
-      </section>
-
-    </article>
-  </main>
-
-
-
-
-
-  <!-- 
-    - #FOOTER
-  -->
-
-  <footer class="footer">
-
-    <div class="footer-top">
-      <div class="container">
-
-        <div class="footer-brand">
-
-          <a href="#" class="logo">
-            <img src="./assets/images/logo.png" alt="Aagaz logo">
-          </a>
-
-          <p class="footer-text">
-            At Aagaz Kashmir Holiday We Offer You Amazing And Great Tour Packages On Discounted Rates.
-          </p>
-
-        </div>
-
-        <div class="footer-contact">
-
-          <h4 class="contact-title">Contact Us</h4>
-
-          <p class="contact-text">
-            Feel free to contact and reach us !!
-          </p>
-
-          <ul>
-
-            <li class="contact-item">
-              <ion-icon name="call-outline"></ion-icon>
-
-              <a href="tel:8494051233" class="contact-link"> CEO. +91 8494051233</a>
-            </li>
-
-            <li class="contact-item">
-              <ion-icon name="call-outline"></ion-icon>
-
-              <a href="tel:9906871449" class="contact-link"> MD. +91 9906871449</a>
-            </li>
-
-            <li class="contact-item">
-              <ion-icon name="call-outline"></ion-icon>
-
-              <a href="tel:8491877299" class="contact-link"> MD. +91 8491877299</a>
-            </li>
-
-            <li class="contact-item">
-              <ion-icon name="call-outline"></ion-icon>
-
-              <a href="tel:7298739834" class="contact-link">+91 7298739834</a>
-            </li>
-
-            <li class="contact-item">
-              <ion-icon name="mail-outline"></ion-icon>
-
-              <a href="mailto:aagazkashmirholiday@gmail.com" class="contact-link">aagazkashmirholiday@gmail.com</a>
-            </li>
-
-            <li class="contact-item">
-              <ion-icon name="mail-outline"></ion-icon>
-
-              <a href="mailto:aagazkashmir@gmail.com" class="contact-link">aagazkashmir@gmail.com</a>
-            </li>
-
-            <li class="contact-item">
-              <ion-icon name="location-outline"></ion-icon>
-
-              <address>Rajbagh Srinagar, Jammu and Kashmir</address>
-            </li>
-
-          </ul>
-
-        </div>
-
-        <!-- <div class="footer-form">
-
-          <p class="form-text">
-            Subscribe our newsletter for more update & news !!
-          </p>
-
-          <form action="" class="form-wrapper">
-            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
-
-            <button type="submit" class="btn btn-secondary">Subscribe</button>
-          </form>
-
-        </div> -->
-
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div class="container">
-
-        <p class="copyright">
-          &copy; 2022 <a href="">Towfeeq Khan</a>. All rights reserved
+  </section>
+
+  <!-- Reviews -->
+
+  <section id="reviews">
+    <h2 class="review-heading">Reviews</h2>
+
+    <div class="review-container">
+      <div class="review-box">
+        <img class="img" src="images/r1.png">
+        <h3 class="r-title">Fatima</h3>
+        <i class="icon3 fa-solid fa-star"></i>
+        <i class="icon3 fa-solid fa-star"></i>
+        <i class="icon3 fa-solid fa-star"></i>
+        <i class="icon3 fa-solid fa-star"></i>
+        <i class="icon3 fa-solid fa-star"></i>
+        <p class="r-discription">These guys are very humble I must say Best service ever And also at very affordable
+          price
         </p>
+      </div>
 
-        <!-- <ul class="footer-bottom-list">
+      <div class="review-box">
+        <img class="img" src="images/r2.png">
+        <h3 class="r-title">Neha</h3>
+        <i class="icon3 fa-solid fa-star"></i>
+        <i class="icon3 fa-solid fa-star"></i>
+        <i class="icon3 fa-solid fa-star"></i>
+        <i class="icon3 fa-solid fa-star"></i>
+        <i class="icon3 fa-solid fa-star"></i>
+        <p class="r-discription">Best tour and travel company in kashmir, they provide great offers & services are just
+          amazing
+        </p>
+      </div>
 
-          <li>
-            <a href="#" class="footer-bottom-link">Privacy Policy</a>
-          </li>
+      <div class="review-box">
+        <img class="img" src="images/r3.png">
+        <h3 class="r-title">Junaid</h3>
+        <i class="icon3 fa-solid fa-star"></i>
+        <i class="icon3 fa-solid fa-star"></i>
+        <i class="icon3 fa-solid fa-star"></i>
+        <i class="icon3 fa-solid fa-star"></i>
+        <i class="icon3 fa-solid fa-star"></i>
+        <p class="r-discription">Wow I just love Aagaz Kashmir Holiday's services, I got tour package at very low price
+        </p>
+      </div>
 
-          <li>
-            <a href="#" class="footer-bottom-link">Term & Condition</a>
-          </li>
+    </div>
+  </section>
 
-          <li>
-            <a href="#" class="footer-bottom-link">FAQ</a>
-          </li>
+  <h3 class="about-heading">About Us</h3>
 
-        </ul> -->
+  <section id="about">
 
+    <div class="about-container">
+      <div class="about-box">
+        <h3>100+ Packages</h3>
+        <p>Sold &#10003</p>
+      </div>
+      <div class="about-box">
+        <h3>100+ Clients</h3>
+        <p>Served &#10003</p>
+      </div>
+      <div class="about-box">
+        <h3>30+ Locations</h3>
+        <p>Reached &#10003</p>
       </div>
     </div>
+  </section>
 
+  <section class="about2">
+    <div class="about2-container">
+      <div class="about2-box">
+        <!-- <a href=""><i class="a-icon fa-solid fa-phone"></i></a>
+        <a href=""><i class="a-icon fa-brands fa-whatsapp"></i></a>
+        <a href=""><i class="a-icon fa-brands fa-facebook"></i></a>
+        <a href=""><i class="a-icon fa-solid fa-envelope"></i></a> -->
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="main-content">
+      <div class="left box3">
+        <h2>About us</h2>
+        <div class="content">
+          <p>Book tour packages & holidays to travel Kashmir with Kashmir's own tour company called
+            Aagaz Kashmir Holiday. At Aagaz Kashmir Holiday we offer you great and affordable tour packages.</p>
+          <a href="tel:+91 8494051233"><i class="a-icon fa-solid fa-phone"></i></a>
+          <a href="https://wa.me/918494051233"><i class="a-icon fa-brands fa-whatsapp"></i></a>
+          <a href="https://m.facebook.com/Aagaz-Kashmir-Holiday-Tour-102287959325879/?ref=page_internal&mt_nav=0&locale2=ne_NP"><i class="a-icon fa-brands fa-facebook"></i></a>
+          <a href="mailto:aagazkashmirholiday@gmail.com"><i class="a-icon fa-solid fa-envelope"></i></a>
+          <!-- <div class="social">
+            <a href="https://facebook.com/"></a>
+            <a href="https://instagram.com/"></a>
+            <a href="https://youtube.com/"></a>
+          </div> -->
+        </div>
+      </div>
+
+      <div class="center box3">
+        <h2>Address</h2>
+        <div class="content">
+          <div class="place">
+            <span class="icon-f fas fa-location-dot"></span>
+            <span class="text">Rajbagh Srinagar, J&K</span>
+          </div>
+          <div class="phone">
+            <span class="icon-f fas fa-phone"></span>
+            <span class="text">CEO. +91 8494051233</span> <br>
+            <span class="icon-f fas fa-phone"></span>
+            <span class="text">MD. +91 8491877299</span> <br>
+            <span class="icon-f fas fa-phone"></span>
+            <span class="text">+91 7298739834</span>
+          </div>
+          <div class="email">
+            <span class="icon-f fas fa-envelope"></span>
+            <span class="text">aagazkashmirholiday@gmail.com</span> <br>
+            <span class="icon-f fas fa-envelope"></span>
+            <span class="text">aagazkashmir@gmail.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="right box3">
+        <h2>Contact us</h2>
+        <div class="content">
+          <form action="#">
+            <div class="email">
+              <div class="text">Email *</div>
+              <input type="email" required>
+            </div>
+            <div class="msg">
+              <div class="text">Message *</div>
+              <textarea rows="2" cols="25" required></textarea>
+            </div>
+            <div class="btn2">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+        <a href="https://merchant.razorpay.com/policy/KoIkOVqXJAK7ce/privacy">Privacy Policy</a> <br>
+        <a href="https://merchant.razorpay.com/policy/KoIkOVqXJAK7ce/terms">Terms and Conditions</a> <br>
+        <a href="https://merchant.razorpay.com/policy/KoIkOVqXJAK7ce/refund">Cancellation and Refund</a> <br>
+        <a href="https://merchant.razorpay.com/policy/KoIkOVqXJAK7ce/contact_us">Contact us</a> <br>
+        <span class="credit credit2">Design and Developed By <a href="https://wa.me/7889727406">Towfeeq khan</a></span>
+    </div>
   </footer>
 
 
+  <script src="typed.js"></script>
+
+  <script>
+    var typed = new Typed(".type", {
+      strings: ["KASHMIR", "HEAVEN"],
+      typeSpeed: 100,
+      backSpeed: 60,
+      loop: true
+    });
+  </script>
 
 
 
-  <!-- 
-    - #GO TO TOP
-  -->
-
-  <a href="#top" class="go-top" data-go-top>
-    <ion-icon name="chevron-up-outline"></ion-icon>
-  </a>
-
-
-
-
-
-  <!-- 
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!-- 
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
