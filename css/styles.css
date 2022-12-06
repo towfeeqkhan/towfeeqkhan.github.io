@@ -5,7 +5,7 @@ html {
 }
 
 #title {
-  background: url("../hero3.jpg");
+  background: url("../hero.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -273,6 +273,28 @@ html {
   font-size: 1px;
 }
 
+/* gallery */
+
+#gallery {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 3%;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.gallery-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.2rem;
+  margin-bottom: 60px;
+  color: #101F46; 
+}
+
+.btn-gallery {
+  margin-top: 30px;
+  width: 195px;
+}
+
 
 /* Footer */
 
@@ -420,6 +442,48 @@ footer{
 
 .bottom a:hover{
   text-decoration: underline;
+}
+
+
+/* Details page */
+
+#details {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 0 5%;
+  line-height: 1.6;
+}
+
+.textBg {
+  background-color: #7EA22C;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.details-img {
+  height: 200px;
+}
+
+.dep {
+  height: 60px;
+}
+
+.contact-btn {
+  background-color: #7aa843;
+  font-size: 15px;
+  color: white;
+  padding: 7px 27px;
+  border: none;
+  margin-bottom: 7px;
+}
+
+.contact-btn-call {
+  padding: 7px 21px;
+  background-color: #213f98;
+  font-size: 15px;
+  color: white;
+  border: none;
 }
 
 @media screen and (max-width: 900px) {
