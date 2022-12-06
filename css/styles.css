@@ -471,14 +471,16 @@ footer{
 
 .contact-btn {
   background-color: #7aa843;
+  height: 40px;
   font-size: 15px;
   color: white;
   padding: 7px 27px;
   border: none;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
 }
 
 .contact-btn-call {
+  height: 40px;
   padding: 7px 21px;
   background-color: #213f98;
   font-size: 15px;
